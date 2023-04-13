@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  pycrust:
+    build: .
+    volumes:
+      - ${INPUT_FILE}:/app/input.py
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    command: "input.py"
