@@ -28,7 +28,10 @@ PyCrust is a command-line tool that transpiles Python code to Rust code, replaci
     │   ├── download_dependencies.sh
     │   └── pycrust.sh
     ├── src/
+    │   ├── __init__.py
     │   └── pycrust.py
+    ├── tests/
+    │   └── test_pycrust.py
     └── requirements.txt
 
 ## Notes
